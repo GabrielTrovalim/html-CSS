@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="muque.ico" type="image/x-icon">
+    <title>Teste de celular</title>
+</head>
+
+<body>
+    <h1>Demosntração de tamanhos em um dispositivo móvel</h1>
+    <hr>
+
+    <p>Vamos inserir uma imagem que se molde à largura da página:</p>
+
+    <p style="text-align: center;">
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/image-m.png" type="image/png">
+            <img src="imagem-g.png" alt="imagem grande">
+        </picture>
+    </p>
+
+    <p style="text-align: center;"><iframe width="1000" height="315" src="https://www.youtube.com/embed/4OZYsFl-J9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</body>
+</html>

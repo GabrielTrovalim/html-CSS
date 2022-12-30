@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando sombras</title>
+    <style>
+        body{
+            font: 1em Arial, Helvetica, sans-serif;
+            background-color: peachpuff;
+        }
+        #caixa{
+            background-color: snow;
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            box-shadow: 3px 4px 15px #a18a75bd; /*Esse comando configura a sombra da caixa*/
+            border-radius: 15px; /*Esse comando arredonda os vértices da caixa*/
+        }
+        .cu{
+            background-color: peachpuff;
+            padding: 3px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px #c9c2c2b7;
+        }
+        span:hover{
+            background-color: red;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <article id="caixa">
+        <h1>Usando sombras</h1>
+        <p>Vamos aprender a usar sombras de maneira simples, uhuuu!!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores velit voluptatibus veniam, excepturi voluptatum quibusdam aut temporibus ullam alias quae iusto quisquam cumque nesciunt voluptas sed dolorum cupiditate vitae omnis!</p>
+        <!--Quanto mais conteúdo dentro de article, mais verticalmente a caixa cresce-->
+            <span class="cu"><a href="https://www.youtube.com/watch?v=3ZFYXkzXhqE&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=23" target="_blank" rel="external">Vídeo atual</a></span> <span class="cu">Peitin</span>
+    </article>
+</body>
+</html>

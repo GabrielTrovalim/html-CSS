@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando os links</title>
+    <style>
+        body{
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: red;
+            font-size: 2em;
+        }
+        .especial:hover{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        
+        .especial::before{
+            content: ">>";
+            font-weight: lighter;
+        }
+
+        .especial::after{
+            content: "<<";
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um Link</h1>
+
+    <p>
+        Para aprender mais sobre HTML e CSS acesse o repositório do  
+        <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external"> guanabara</a>
+    </p>
+
+    <p>
+        Acesse o site oficial do 
+        <a href="https://www.w3c.br/" target="_blank" rel="external">W3C</a> no Brasil
+    </p>
+
+    <p>Veja também o canal do curso em vídeo no <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external" class="especial">YOUTUBE</a>
+    </p>
+</body>
+</html>

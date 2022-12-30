@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de grupo</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg, #F2B5A7, #F2D5CE);
+            margin: 0px;
+        }
+        header{
+            background-color: snow;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #b1726465;
+        }
+        nav{
+            padding: 8px;
+            background-color: #C0D5E8;
+            border-radius: 10px;
+        }
+        nav > a{
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0px 10px;
+            color: black;
+            padding: 3px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            background-color: #c3e3ff;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px #91a4b6;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #b1726465;
+        }
+        article{
+            background-color: #C0D5E8;
+            padding: 5px;
+            text-align: justify;
+            border-radius: 5px;
+        }
+        article > aside{
+            background-color: #F2B5A7;
+        }
+        main > section{
+            padding: 3px;
+        }
+        main > section > a{
+            margin: 0px 5px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            background-color: #F2B5A7;
+            padding: 3px;
+            border-radius: 10px;
+        }
+        main > section > a:hover{
+            background-color: #ffd5cb;
+            text-decoration: underline;
+            box-shadow: 3px 3px 5px #80808098;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #titulo-sec{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <a href="#"> Esportes</a>
+            <a href="#"> Política</a>
+            <a href="#"> Tecnologia</a>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2 id="titulo-sec">Notícias do Brasil hoje</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis cum excepturi deserunt repudiandae dolore illo explicabo? Provident, officia aperiam esse minima soluta, recusandae culpa praesentium est, ratione consequatur laborum.</p>
+
+                <aside>
+                    <p>Site feito e escrito por BIEL</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por GABO!</p>
+    </footer>
+</body>
+</html>
