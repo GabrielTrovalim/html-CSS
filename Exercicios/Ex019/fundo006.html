@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>documento</title>
+    <title>fundo de tela</title>
     <style>
         body{
             height: 97.5vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('Imagens-cap19/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand para as configurações de Background
+                na ordem: color > image > position > repeat > [size] > attachment 
+                
+                ou seja: cor imagem posição repetição tamanho e ligação/ancoragem.*/
+
+            background: black url('Imagens-cap19/wallpaper002.jpg') center top no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
+            margin-bottom: 30px;
             border-radius: 15px;
         }
         main h1{
@@ -37,7 +47,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, cumque, quia laborum nemo provident atque impedit aut, dolore incidunt blanditiis officiis vel exercitationem praesentium! Fugit id dolor culpa rem. A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum exercitationem voluptates maiores est, explicabo consequatur eligendi? Eos unde, quas et reprehenderit optio cupiditate possimus repudiandae sequi modi, est officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore explicabo ea assumenda error reiciendis ullam accusamus necessitatibus vitae suscipit non quas perspiciatis repudiandae odio veniam atque tempora ipsum, consequuntur nihil.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, cumque, quia laborum nemo provident atque impedit aut, dolore incidunt blanditiis officiis vel exercitationem praesentium! Fugit id dolor culpa rem. A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum exercitationem voluptates maiores est, explicabo consequatur eligendi? Eos unde, quas et reprehenderit optio cupiditate possimus repudiandae sequi modi, est officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore explicabo ea assumenda error reiciendis ullam accusamus necessitatibus vitae suscipit non quas perspiciatis repudiandae odio veniam atque tempora ipsum, consequuntur nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, cumque, quia laborum nemo provident atque impedit aut, dolore incidunt blanditiis officiis vel exercitationem praesentium! Fugit id dolor culpa rem. A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum exercitationem voluptates maiores est, explicabo consequatur eligendi? Eos unde, quas et reprehenderit optio cupiditate possimus repudiandae sequi modi, est officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore explicabo ea assumenda error reiciendis ullam accusamus necessitatibus vitae suscipit non quas perspiciatis repudiandae odio veniam atque tempora ipsum, consequuntur nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, cumque, quia laborum nemo provident atque impedit aut, dolore incidunt blanditiis officiis vel exercitationem praesentium! Fugit id dolor culpa rem. A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum exercitationem voluptates maiores est, explicabo consequatur eligendi? Eos unde, quas et reprehenderit optio cupiditate possimus repudiandae sequi modi, est officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore explicabo ea assumenda error reiciendis ullam accusamus necessitatibus vitae suscipit non quas perspiciatis repudiandae odio veniam atque tempora ipsum, consequuntur nihil.</p>
     </main>
 </body>
 </html>
