@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: #cbd6db;
+        }
+        #container{
+            height: 50vh;
+            padding: 10px;
+            position: relative;
+            background: violet url('https://blackplatinumgold.com/wp-content/uploads/2021/03/1-8.jpg') center center no-repeat fixed;
+            background-size: cover;
+            box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.26);
+        }
+        nav{
+            background-color: #7ec1e0;
+            display: block;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.267);       
+        }
+        nav a{
+            background-color: transparent;
+            font-weight: bolder;
+            font-size: 1.5em;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 10px;
+            /*color: rgb(82, 91, 224);*/
+            color: black;
+            transition-duration: 0.4s;
+            margin: 0px 5px;
+        }
+        nav a:hover{
+            background-color: rgba(255, 255, 255, 0.301);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+            text-decoration: underline;
+        }
+        #conteudo{
+            background: yellow url('https://ctl.s6img.com/society6/img/5uFHiOtud7B5teZ02cp0Mo5O_FY/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/07c252f2a6f04364ab7d484376e803be/~~/calico-cat1907816-prints.jpg') center center no-repeat fixed;
+            background-size: cover;
+            border-radius: 10px;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+        div#espaco{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        main{
+            min-width: 200px;
+            max-width: 600px;
+            padding: 20px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            background-color: peachpuff;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.199);
+        }
+        main h1{
+            font-family: 'Bebas Neue', cursive;
+            text-align: center;
+            padding: 10px;
+            margin: -20px -20px 0px -20px;
+            background-color: #ffa8c2;
+            border-radius: 15px 15px 0px 0px;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.425);
+        }
+        main p{
+            margin-top: 10px;
+            text-align: justify;
+            text-indent: 20px;
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+        footer{
+            background-color: black;
+            padding: 10px;
+            padding-bottom: 35px ;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+            transition-duration: 0.4s;
+        }
+        footer a:hover{
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
+
+    <nav>
+        <a href="https://github.com/GabrielTrovalim" target="_blank" rel="external">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/gabriel-trovalim-992871255/" target="_blank" rel="external">Linkedin</a>
+    </nav>
+
+    <div id="espaco">
+        <main>
+            <h1>Aplicação do que aprendi!</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, rerum facere in quasi cumque mollitia ducimus eos nostrum cupiditate, quo, consequuntur ut est ullam ad eum. Rerum excepturi esse a? Lorem ipsum dolor sit amet consectetur adipisicing elit. At, odit. Repellendus vel dolor repudiandae pariatur praesentium modi iusto sit, unde tempora fugit temporibus deleniti, magnam ducimus itaque minus nam sint? </p>
+        </main>
+    </div>
+
+    <footer>
+        <p>Criado por <a href="https://github.com/GabrielTrovalim"><strong>Gabriel Trovalim</strong></a> apenas para demonstração e testes</p>
+    </footer>
+</body>
+</html>
