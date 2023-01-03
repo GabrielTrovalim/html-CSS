@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte0: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: 'Sriracha', cursive;
+    --fonte2: 'Fredoka One', cursive;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -8,6 +18,7 @@
 html, body{
     min-height: 100vh;
     background-color: gray;
+    font-family: var(--fonte0);
 }
 
 header{
@@ -16,10 +27,13 @@ header{
     text-align: center;
 }
 header > h1{
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 8vw;
 }
 header > p{
+    font-family: var(--fonte0);
     padding-bottom: 50px;
 }
 header a, footer a{
@@ -33,10 +47,12 @@ header a:hover ,footer a:hover{
     text-decoration: underline;
 }
 section{
+    font-family: var(--fonte1);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-size: 3vw;
 }
 section.normal{
     background-color: white;
@@ -49,8 +65,8 @@ section.imagem{
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.2);
     padding: 15px;
-    max-width: 400px;
-    min-width: 200px;
+    border-radius: 10px;
+    display: inline-block;
 }
 footer{
     background-color: black;
