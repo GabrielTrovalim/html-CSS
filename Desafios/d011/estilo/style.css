@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root{
+    --fontep: Arial, Helvetica, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    background: transparent url('../imagens/espaco.jpg') center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+#conteudo{
+    background: transparent url('../imagens/astronauta.png') center center no-repeat scroll;
+    background-size: cover;
+    position: absolute;
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 500px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+main{
+    padding: 30px;
+}
+main p{
+    background-color: peachpuff;
+    font-family: var(--fontep);
+    text-align: justify;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 700px;
+    text-indent: 20px;
+    line-height: 2em;
+}
