@@ -1,4 +1,5 @@
 # html-CSS
- Curso de HTML5 e CSS3 do Curso em vídeo
-
-Meu aprendizado em HTML5 e CSS3
+ <p>
+  Aprendizado em HTML5 e CSS3. <br>
+  Tendo como base o curso do Curso em vídeo.
+ </p>
