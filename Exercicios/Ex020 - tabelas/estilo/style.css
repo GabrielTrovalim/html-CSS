@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+:root{
+    --fontepad: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: var(--fontepad);
+}
+table{
+    width: 300px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    font-size: 1.2em;
+}
+td#titulo{
+    text-align: center;
+}
+td.flag{
+    text-align: center;
+}
