@@ -4,38 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabelas</title>
+    <title>Tabela 02</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
             border-collapse: collapse;
-            width: 100px;
         }
         table td{
+            text-align: center;
             border: 1px solid black;
             padding: 10px;
+            width: 20px;
+            height: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Mesclagem de tabelas</h1>
+    <h1>Tabela 02 do desafio 013</h1>
 
     <table> <!--Tabela-->
         <tr>
-            <td rowspan="3">A</td>
-            <td colspan="2">B</td>
+            <td colspan="4">A</td> <!--A-->
+            <td rowspan="4">B</td> <!--B-->
         </tr>
         <tr>
-            
+            <td rowspan="4">C</td> <!--C-->
+            <td>D</td>
             <td>E</td>
-            <td rowspan="2">F</td>
+            <td>F</td>
         </tr>
         <tr>
-            
+            <td>G</td>
             <td>H</td>
-            
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>k</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td colspan="4">M</td> <!--N-->
         </tr>
     </table>
 </body>
