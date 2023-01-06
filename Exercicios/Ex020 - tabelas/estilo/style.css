@@ -1,22 +1,112 @@
 @charset "UTF-8";
 
 :root{
-    --fontepad: Arial, Helvetica, sans-serif;
+    /*Fontes*/
+    --fontep: Arial, Helvetica, sans-serif;
+
+    /*Cores*/
+    --cor0: #11393B;
+    --cor1: #194431;
+    --cor2: #89B173;
+    --cor3: #F0E6AB;
+    --cor4: #F0D17F;
+}
+*{
+    padding: 0px;
+    margin: 0px;
 }
 body{
-    font-family: var(--fontepad);
+    font-family: var(--fontep);
+    background-color: peachpuff;
 }
-table{
-    width: 300px;
+header{ /*Cabeçalho*/
+    background: var(--cor0) url('../Imagens/espaco.jpg') center top no-repeat fixed;
+    background-size: cover;
+    padding: 30px 30px 10px 30px;
+    margin-bottom: 30px;
+    height: 150px;
+}
+header h1{
+    text-align: center;
+    font-size: 2em;
+}
+header p{
+    text-align: center;
+    font-size: 1.5em;
+}
+nav{ /*Navegação*/
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0px 15px 0px 15px;
+} 
+main{ /*Conteúdo*/
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section{
+    margin: auto;
+    background-color: white;
+    max-width: 1000px;
+    height: 800px;
+    padding: 20px;
+    border-radius: 15px;
+}
+section h1{
+    font-size: 1.9em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section h2{
+    margin-bottom: 10px;
+}
+section p{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+article{
+    margin: auto;
+    background-color: var(--cor4);
+    padding: 20px;
+    border-radius: 10px;
+}
+article table{
+    margin: auto;
     border-collapse: collapse;
+    width: 300px;
 }
-td{
+article td{
+    padding: 10px;
     border: 1px solid black;
+}
+article td.flag{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: var(--cor0);
+}
+footer p{
     font-size: 1.2em;
+    color: white;
+    font-weight: lighter;
 }
-td#titulo{
-    text-align: center;
+footer a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
 }
-td.flag{
-    text-align: center;
+footer a:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: var(--cor2);
 }
