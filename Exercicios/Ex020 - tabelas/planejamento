@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Os melhores IDHs do mundo</title>
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="shortcut icon" href="Imagens/Planeta.ico" type="image/x-icon">
-</head>
-<body>
-    <header> <!--Cabeçalho do site-->
-        <h1>O mundo hoje!</h1>
+ <h1>O mundo hoje!</h1>
 
         <p>Descubra um pouco mais sobre o mundo navegando pelo site &#x1FA90;</p>
 
-        <nav> <!--Menu de navegação-->
-            <a href="#">Contato</a>
-            <a href="#">Home</a>
-            <a href="#">Mais conteúdo</a>
-        </nav>
-    </header>
-
-    <main> <!--Área do meio do site-->
-        <section> <!--Conteúdo principal-->
-            <h1>Veja o índice de desenvolvimento humano de outros países</h1>
+ <h1>Veja o índice de desenvolvimento humano de outros países</h1>
 
             <h2>Mas o que é o IDH?</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate harum iure ut exercitationem architecto facilis fuga recusandae deserunt ab error inventore natus labore quia aliquid reprehenderit, quidem perspiciatis, incidunt rerum.</p>
-
-            <article> <!--Caixa interna para tabela-->
-
-                <h1>Top 10 países com melhor IDH</h1>
+ <h1>Top 10 países com melhor IDH</h1>
 
                 <table>
                     <tr> <!--Primeira linha-->
@@ -101,13 +76,3 @@
                         <td class="flag">0,941</td>
                     </tr>
                 </table>
-            </article>
-       </section>
-
-    </main>
-
-    <footer> <!--Rodapé do site-->
-        <p>Site criado por <a href="#" target="_blank" rel="external">Gabriel Trovalim</a>.</p>
-    </footer>
-</body>
-</html>
