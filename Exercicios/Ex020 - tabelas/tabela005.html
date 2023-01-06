@@ -48,15 +48,15 @@
 
         <thead> <!--Cabeçalho-->
             <tr>
-                <th>Grupo</th>
-                <th>Nome</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
 
         <tbody> <!--Corpo da tabela-->
             <tr> <!--Primeira linha-->
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th> <!--Título Mulheres-->
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -75,7 +75,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr> <!--Quarta linha-->
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th> <!--Título homens-->
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
