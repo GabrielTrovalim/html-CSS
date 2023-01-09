@@ -4,7 +4,7 @@
     padding: 0px;
     margin: 0px;
 }
-:root{
+:root{ /*Variáveis*/
     --fonte-padrao: Arial, Helvetica, sans-serif;
 }
 body{
@@ -19,12 +19,14 @@ header{
 header h1{
     font-size: 3.5em;
     text-align: center;
+    margin-bottom: 10px;
 }
 header p{
     padding: 20px 10px 0px 10px;
     display: block;
     margin: auto;
-    text-align: justify;
+    text-align: center;
+    font-size: 1.4em;
     max-width: 500px;
 }
 nav{
@@ -40,19 +42,39 @@ nav a{
 }
 main{
     background-color: lightblue;
-    padding: 10px;
     max-width: 1000px;
-    padding: 20px;
+    padding: 30px;
     margin: auto;
     border-radius: 15px;
 }
 main h1{
     font-size: 2.4em;
     margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 main p{
     margin: 10px 0px;
     text-indent: 30px;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    text-align: justify;
+}
+article{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+article h2{
+    background-color: aqua;
+    margin: -20px -20px 20px -20px;
+    border-radius: 10px 10px 0px 0px ;
+    padding: 10px;
+}
+.dado{
+    display: inline-block;
+    margin: 10px 0px;
     font-size: 1.3em;
     line-height: 1.8em;
 }
