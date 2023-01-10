@@ -101,6 +101,7 @@ main{
 main h1{
     text-align: justify;
     padding: 5px;
+    font-family: var(--fonte-destaque);
     font-size: 2.5em;
     margin-bottom: 15px;
     margin-bottom: 40px;
@@ -125,18 +126,21 @@ main p{
 article{
     background-color: var(--cor0);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     max-width: 900px;
     border-radius: 5px;
 }
 article h2{
     background-color: var(--cor1);
     margin: -20px -20px 20px -20px;
-    border-radius: 5px 5px 0px 0px ;
     font-size: 1.6em;
+    font-family: var(--fonte-destaque);
     padding: 20px;
+}
+#ah2{
+    border-radius: 5px 5px 0px 0px;
 }
 .dado{
     display: inline-block;
@@ -144,18 +148,44 @@ article h2{
     font-size: 1.3em;
     line-height: 1.8em;
 }
+.container{
+    overflow-x: auto;
+}
 table{
     width: 550px;
     margin: auto;
     border-collapse: collapse;
 }
 caption{
-    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor1);
+    border-radius: 5px 5px 0px 0px;
 }
 td, th{
+    background-color: white;
     text-align: center;
     padding: 7px;
     border: 1px solid black;
+}
+main h2{
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    border-radius: 5px;
+    font-size: 1.8em;
+    margin-top: 30px;
+    padding-left: 25px;
+}
+#tab2{
+    margin-top: 30px;
+}
+#cap2{
+    font-size: 1.8em;
 }
 footer{
     margin-top: 20px;

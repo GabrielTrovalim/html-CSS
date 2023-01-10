@@ -27,7 +27,7 @@
         <main> <!--Conteúdo-->
             <h1 class="text">Veja o índice de desenvolvimento humano de outros países</h1>
             <article>
-                <h2>Mas o que é o IDH? &#x1F914;</h2>
+                <h2 id="ah2">Mas o que é o IDH? &#x1F914;</h2>
                 <p>O Índice de Desenvolvimento Humano (IDH) compara indicadores de países nos itens riqueza, alfabetização, educação, esperança de vida, natalidade e outros, com o intuito de avaliar o bem-estar de uma população, especialmente das crianças. Varia de zero a um e é divulgado pelo Programa das Nações Unidas para o Desenvolvimento (<a href="https://www.undp.org/pt/brazil" class="link" target="_blank" rel="external">Pnud</a>) em seu relatório anual. Na divulgação feita em novembro de 2007, com dados referentes a 2005, o Brasil pela primeira vez alcançou o nível 0,80, passando a integrar o grupo de países com IDH elevado. Países com IDH até 0,499 são considerados de desenvolvimento humano baixo, e os com índices entre 0,50 e 0,799 são considerados de desenvolvimento humano médio. <br>
         
                 <div class="dado">
@@ -37,95 +37,119 @@
                 </p>
             </article>
 
-            <table> <!--Tabela dos países-->
+            <div class="container"> 
+                <table> <!--Tabela dos países-->
+                    <caption> <!--Legenda da tabela-->
+                        Top 10 países com melhor IDH no mundo
+                    </caption>
+                    <thead> <!--Cabeça da tabela-->
+                        <tr>
+                            <th scope="col">Posição</th>
+                            <th scope="col">País</th>
+                            <th scope="col">🚩</th>
+                            <th scope="col">IDH</th>
+                            <th scope="col">PIB per capita</th>
+                        </tr>
+                    </thead>
+                    <tbody> <!--Corpo da tabela-->
+                        <tr>
+                            <td>1°</td>
+                            <td><abbr title="Expectativa de vida: 82,3 anos" >Noruega</abbr></td>
+                            <td>🇳🇴</td>
+                            <td>0,954</td>
+                            <td>USD$ 68.012</td>
+                        </tr>
+                        <tr>
+                            <td>2°</td>
+                            <td><abbr title="Expectativa de vida: 83,5 anos">Suíça</abbr></td>
+                            <td>🇨🇭</td>
+                            <td>0,946</td>
+                            <td>USD$ 57.625</td>
+                        </tr>
+                        <tr>
+                            <td>3°</td>
+                            <td><abbr title="Expectativa de vida: 81,6 anos">Irlanda</abbr></td>
+                            <td>🇮🇪</td>
+                            <td>0,942</td>
+                            <td>USD$ 53.754</td>
+                        </tr>
+                        <tr>
+                            <td>4°</td>
+                            <td><abbr title="Expectativa de vida: 81,2 anos">Alemanha</abbr></td>
+                            <td>🇩🇪</td>
+                            <td>0,939</td>
+                            <td>USD$ 46.136</td>
+                        </tr>
+                        <tr>
+                            <td>5°</td>
+                            <td><abbr title="Expectativa de vida: 84,1 anos">Hong Kong (China)</abbr></td>
+                            <td>🇭🇰</td>
+                            <td>0,939</td>
+                            <td>USD$ 58.420</td>
+                        </tr>
+                        <tr>
+                            <td>6°</td>
+                            <td><abbr title="Expectativa de vida: 83,1 anos">Austrália</abbr></td>
+                            <td>🇦🇺</td>
+                            <td>0,938</td>
+                            <td>USD$ 43.560</td>
+                        </tr>
+                        <tr>
+                            <td>7°</td>
+                            <td><abbr title="Expectativa de vida: 82,9 anos">Islândia</abbr></td>
+                            <td>🇮🇸</td>
+                            <td>0,938</td>
+                            <td>USD$ 45.810</td>
+                        </tr>
+                        <tr>
+                            <td>8°</td>
+                            <td><abbr title="Expectativa de vida: 82,6 anos">Suécia</abbr></td>
+                            <td>🇸🇪</td>
+                            <td>0,937</td>
+                            <td>USD$ 47.766</td>
+                        </tr>
+                        <tr>
+                            <td>9°</td>
+                            <td><abbr title="Expectativa de vida: 83,2 anos">Singapura</abbr></td>
+                            <td>🇸🇬</td>
+                            <td>0,935</td>
+                            <td>USD$ 82.503</td>
+                        </tr>
+                        <tr>
+                            <td>10°</td>
+                            <td><abbr title="Expectativa de vida: 82 anos">Holanda</abbr></td>
+                            <td>🇳🇱</td>
+                            <td>0,933</td>
+                            <td>USD$ 47.900</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                <caption> <!--Legenda da tabela-->
-                    Top 10 países com melhor IDH no mundo
-                </caption>
+            <h2>O Brasil e seu IDH</h2>
 
-                <thead> <!--Cabeça da tabela-->
-                    <tr>
+            <div class="container">
+                <table id="tab2">
+
+                    <caption id="cap2">
+                        Brasil
+                    </caption>
+                    <thead> <!--Cabeça da tabela 02-->
                         <th scope="col">Posição</th>
                         <th scope="col">País</th>
                         <th scope="col">🚩</th>
                         <th scope="col">IDH</th>
                         <th scope="col">PIB per capita</th>
-                    </tr>
-                </thead>
-
-                <tbody> <!--Corpo da tabela-->
-                    <tr>
-                        <td>1°</td>
-                        <td>Noruega</td>
-                        <td>🇳🇴</td>
-                        <td>0,954</td>
-                        <td>USD$ 68.012</td>
-                    </tr>
-                    <tr>
-                        <td>2°</td>
-                        <td>Suíça</td>
-                        <td>🇨🇭</td>
-                        <td>0,946</td>
-                        <td>USD$ 57.625</td> 
-                    </tr>
-                    <tr>
-                        <td>3°</td>
-                        <td>Irlanda</td>
-                        <td>🇮🇪</td>
-                        <td>0,942</td>
-                        <td>USD$ 53.754</td> 
-                    </tr>
-                    <tr>
-                        <td>4°</td>
-                        <td>Alemanha</td>
-                        <td>🇩🇪</td>
-                        <td>0,939</td>
-                        <td>USD$ 46.136</td> 
-                    </tr>
-                    <tr>
-                        <td>5°</td>
-                        <td>Hong Kong (China)</td>
-                        <td>🇭🇰</td>
-                        <td>0,939</td>
-                        <td>USD$ 58.420</td> 
-                    </tr>
-                    <tr>
-                        <td>6°</td>
-                        <td>Austrália</td>
-                        <td>🇦🇺</td>
-                        <td>0,938</td>
-                        <td>USD$ 43.560</td> 
-                    </tr>
-                    <tr>
-                        <td>7°</td>
-                        <td>Islândia</td>
-                        <td>🇮🇸</td>
-                        <td>0,938</td>
-                        <td>USD$ 45.810</td> 
-                    </tr>
-                    <tr>
-                        <td>8°</td>
-                        <td>Suécia</td>
-                        <td>🇸🇪</td>
-                        <td>0,937</td>
-                        <td>USD$ 47.766</td> 
-                    </tr>
-                    <tr>
-                        <td>9°</td>
-                        <td>Singapura</td>
-                        <td>🇸🇬</td>
-                        <td>0,935</td>
-                        <td>USD$ 82.503</td> 
-                    </tr>
-                    <tr>
-                        <td>10°</td>
-                        <td>Holanda</td>
-                        <td>🇳🇱</td>
-                        <td>0,933</td>
-                        <td>USD$ 47.900</td> 
-                    </tr>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody> <!--Corpo da tabela-->
+                        <td><abbr title="Senso de 2018 (Pnud)">79°</abbr></td>
+                        <td>Brasil</td>
+                        <td>🇧🇷</td>
+                        <td>0,759</td>
+                        <td>USD$ 7.507</td>
+                    </tbody>
+                </table>
+            </div>
         </main>
     </div>
 
