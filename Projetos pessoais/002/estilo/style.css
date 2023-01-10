@@ -1,11 +1,28 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
 }
 :root{ /*Variáveis*/
+
+    /*Cores*/
+    --cor0: #007ac0;
+    --cor1: #01485d;
+    --cor2: #e9a388;
+    --cor3: #b1724d;
+    --cor4: #4c7b37;
+    --cor5: #51a131;
+    
+
+    /*Fontes*/
     --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-titulo: 'Fredoka One', cursive;
+    --fonte-destaque: 'Oswald', sans-serif;
 }
 body{
     font-family: var(--fonte-padrao);
@@ -19,35 +36,42 @@ header{
     box-shadow: inset 0px -10px 10px rgba(0, 0, 0, 0.399);
 }
 header h1{
-    font-size: 3.0em;
+    font: normal normal bolder 3.0em var(--fonte-titulo);
     text-align: center;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.8);
     margin-bottom: 15px;
+    color: white;
 }
 header p{
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.8);
+    color: white;
     padding: 20px 10px 10px 10px;
     display: block;
     margin: auto;
+    font: normal normal bold 1.2em var(--fonte-destaque);
     text-align: center;
-    font-size: 1.2em;
-    font-weight: bold;
     max-width: 500px;
 }
 nav{
     display: block;
     padding: 22px;
-    background-color: skyblue;
+    background-color: var(--cor5);
     text-align: center;
     margin-bottom: 30px;
 }
 nav a{
+    color: white;
     text-decoration: none;
-    font-weight: bold;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+    font: normal normal bold 1.1em var(--fonte-destaque);
     margin: 0px 15px;
     transition-duration: 0.5s;
 }
 nav a:hover{
     background-color: rgba(255, 255, 255, 0.25);
-    font-size: 1.3em;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.288);
+    text-shadow: none;
+    font-size: 1.4em;
     border-radius: 10px;
     padding: 10px;
 }
@@ -62,7 +86,9 @@ main{
     border-radius: 15px;
 }
 main h1{
-    font-size: 2.4em;
+    text-align: justify;
+    padding: 5px;
+    font-size: 2.1em;
     margin-bottom: 15px;
     margin-bottom: 40px;
 }
