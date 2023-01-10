@@ -11,12 +11,12 @@
 :root{ /*Variáveis*/
 
     /*Cores*/
-    --cor0: #007ac0;
-    --cor1: #01485d;
+    --cor0: #97d0df;
+    --cor1: #008ab4;
     --cor2: #e9a388;
     --cor3: #b1724d;
     --cor4: #4c7b37;
-    --cor5: #51a131;
+    --cor5: #43b335;
     
 
     /*Fontes*/
@@ -26,7 +26,7 @@
 }
 body{
     font-family: var(--fonte-padrao);
-    background-color: peachpuff;
+    background-image: linear-gradient(-120deg, #33c481, #15974b);
 }
 header{
     padding: 30px 30px 50px 30px;
@@ -48,7 +48,7 @@ header p{
     padding: 20px 10px 10px 10px;
     display: block;
     margin: auto;
-    font: normal normal bold 1.2em var(--fonte-destaque);
+    font: normal normal bold 1.3em var(--fonte-destaque);
     text-align: center;
     max-width: 500px;
 }
@@ -56,6 +56,7 @@ nav{
     display: block;
     padding: 22px;
     background-color: var(--cor5);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.199);
     text-align: center;
     margin-bottom: 30px;
 }
@@ -63,7 +64,7 @@ nav a{
     color: white;
     text-decoration: none;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
-    font: normal normal bold 1.1em var(--fonte-destaque);
+    font: normal normal bold 1.2em var(--fonte-destaque);
     margin: 0px 15px;
     transition-duration: 0.5s;
 }
@@ -71,15 +72,27 @@ nav a:hover{
     background-color: rgba(255, 255, 255, 0.25);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.288);
     text-shadow: none;
-    font-size: 1.4em;
+    font-size: 1.7em;
     border-radius: 10px;
     padding: 10px;
 }
 #espaco{
-    padding: 0px 8px;
+    padding: 0px 5px;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link::after{
+    content: '\0020\1F517';
 }
 main{
-    background-color: lightblue;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     max-width: 1000px;
     padding: 18px;
     margin: auto;
@@ -88,9 +101,19 @@ main{
 main h1{
     text-align: justify;
     padding: 5px;
-    font-size: 2.1em;
+    font-size: 2.5em;
     margin-bottom: 15px;
     margin-bottom: 40px;
+}
+.text{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-attachment: scroll;
+    background-image: url('../imagens/foto-teste2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 main p{
     margin: 10px 0px;
@@ -100,18 +123,20 @@ main p{
     text-align: justify;
 }
 article{
-    background-color: white;
+    background-color: var(--cor0);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: auto;
     margin-bottom: 20px;
     max-width: 900px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 article h2{
-    background-color: aqua;
+    background-color: var(--cor1);
     margin: -20px -20px 20px -20px;
-    border-radius: 10px 10px 0px 0px ;
-    padding: 10px;
+    border-radius: 5px 5px 0px 0px ;
+    font-size: 1.6em;
+    padding: 20px;
 }
 .dado{
     display: inline-block;
