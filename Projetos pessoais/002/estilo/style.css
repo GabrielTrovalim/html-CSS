@@ -14,7 +14,7 @@ body{
 header{
     padding: 30px 30px 50px 30px;
     height: 170px;
-    background: blueviolet url('../imagens/espaco2.jpg') center bottom no-repeat fixed;
+    background: blueviolet url('../imagens/JamesWebb.jpg') center bottom no-repeat fixed;
     background-size: cover;
     box-shadow: inset 0px -10px 10px rgba(0, 0, 0, 0.399);
 }
