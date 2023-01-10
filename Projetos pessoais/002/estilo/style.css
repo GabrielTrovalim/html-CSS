@@ -96,7 +96,7 @@ main{
     max-width: 1000px;
     padding: 18px;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 main h1{
     text-align: justify;
@@ -191,10 +191,13 @@ main h2{
     margin-top: 30px;
 }
 ul{
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: bold;
     list-style-position: inside;
     columns: 2;
+}
+li{
+    line-height: 1.7em;
 }
 footer{
     margin-top: 20px;
