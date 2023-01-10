@@ -139,7 +139,7 @@ article h2{
     font-family: var(--fonte-destaque);
     padding: 20px;
 }
-#ah2{
+.ah2{
     border-radius: 5px 5px 0px 0px;
 }
 .dado{
@@ -186,6 +186,15 @@ main h2{
 }
 #cap2{
     font-size: 1.8em;
+}
+#ptab2{
+    margin-top: 30px;
+}
+ul{
+    font-size: 1.2em;
+    font-weight: bold;
+    list-style-position: inside;
+    columns: 2;
 }
 footer{
     margin-top: 20px;
