@@ -144,6 +144,19 @@ article h2{
     font-size: 1.3em;
     line-height: 1.8em;
 }
+table{
+    width: 550px;
+    margin: auto;
+    border-collapse: collapse;
+}
+caption{
+    padding: 10px;
+}
+td, th{
+    text-align: center;
+    padding: 7px;
+    border: 1px solid black;
+}
 footer{
     margin-top: 20px;
     padding: 20px;
