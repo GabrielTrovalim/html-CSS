@@ -39,10 +39,11 @@ section#foto img{
     border-radius: 50%;
 }
 main{
+    position: relative;
     width: 94,5vw;
     height: 100vh;
     background-color: skyblue;
-    padding: 25px 20px 10px 10px;
+    padding: 35px 20px 10px 10px;
     text-align: center;
 }
 section#caixa1{
@@ -87,4 +88,32 @@ article#cont2{
     margin: -10px -10px 0px 100px;
     max-width: 500px;
     height: 100px;
+}
+section#caixa3{
+    position: relative;
+    margin: 25px auto;
+
+    background-color: blueviolet;
+    max-width: 600px;
+    height: 100px;
+}
+section#caixa3 img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+}
+article#cont3{
+    background-color: black;
+    margin: -10px -10px 0px 100px;
+    max-width: 500px;
+    height: 100px;
+}
+section#monitor{
+    margin: auto;
+
+    background-color: black;
+    height: 300px;
+    max-width: 700px;
 }
