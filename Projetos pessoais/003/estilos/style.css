@@ -30,11 +30,11 @@ section#telefone{
 }
 #tela{
     position: relative;
-    top: 82px;
-    left: 24px;
+    top: 81px;
+    left: 23px;
 
-    width: 263px;
-    height: 467px;
+    width: 265px;
+    height: 469px;
     overflow-y: hidden;
 }
 #tela::-webkit-scrollbar{
