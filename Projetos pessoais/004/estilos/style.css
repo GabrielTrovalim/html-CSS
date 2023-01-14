@@ -5,6 +5,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
 }
 :root{
     --fontepadrao: Arial, Helvetica, sans-serif;
@@ -50,7 +51,6 @@ section#caixa1{
     position: relative;
     margin: auto;
     
-    background-color: red;
     max-width: 600px;
     height: 100px;
 }
@@ -58,21 +58,27 @@ section#caixa1 img{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
 article#cont1{
-    background-color: rgb(0, 0, 0);
-    
-    margin: -10px -10px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 20px;
+    color: white;
+    margin: -10px -0px 0px 110px;
     max-width: 500px;
     height: 100px;
+}
+article#cont1 p{
+    padding-top: 35px;
+    font-size: 2.0em;
 }
 section#caixa2{
     position: relative;
     margin: 25px auto;
 
-    background-color: blueviolet;
+    background-color: transparent;
     max-width: 600px;
     height: 100px;
 }
@@ -80,20 +86,27 @@ section#caixa2 img{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
 article#cont2{
-    background-color: black;
-    margin: -10px -10px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin: -10px -0px 0px 110px;
+    border-radius: 20px;
+    color: white;
     max-width: 500px;
     height: 100px;
+}
+article#cont2 p{
+    padding-top: 35px;
+    font-size: 2.0em;
 }
 section#caixa3{
     position: relative;
     margin: 25px auto;
 
-    background-color: blueviolet;
+    background-color: transparent;
     max-width: 600px;
     height: 100px;
 }
@@ -101,20 +114,27 @@ section#caixa3 img{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
 article#cont3{
-    background-color: black;
-    margin: -10px -10px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin: -10px -0px 0px 110px;
+    border-radius: 20px;
     max-width: 500px;
+    color: white;
     height: 100px;
+}
+article#cont3 p{
+    padding-top: 35px;
+    font-size: 2.0em;
 }
 section#monitor{
     margin: auto;
 
     background: transparent url('../imagens/monitor1.png') no-repeat top center scroll;
-    background-size: cover;
+    background-size: 100%;
     height: 300px;
     max-width: 400px;
 }
