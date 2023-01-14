@@ -35,6 +35,10 @@ section#telefone{
 
     width: 263px;
     height: 467px;
+    overflow-y: hidden;
+}
+#tela::-webkit-scrollbar{
+    display: none;
 }
 #redes{
     text-align: right;
