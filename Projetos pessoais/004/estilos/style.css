@@ -113,7 +113,16 @@ article#cont3{
 section#monitor{
     margin: auto;
 
-    background-color: black;
+    background: transparent url('../imagens/monitor1.png') no-repeat top center scroll;
+    background-size: cover;
     height: 300px;
-    max-width: 700px;
+    max-width: 400px;
+}
+iframe#tela{
+    position: relative;
+    top: 30px;
+    left: 0px;
+    width: 335px;
+    height: 200px;
+    background-color: red;
 }
