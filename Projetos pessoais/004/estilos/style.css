@@ -13,9 +13,13 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background: peachpuff url('../imagens/fundo.jpg') no-repeat center center scroll;
+    background-size: cover;
+}
 header{ /*Cabeça do site*/
     padding: 20px;
-    background-color: lightgray;
+    background-color: transparent;
 }
 header img{
     position: relative; /*Centralizando a imagem*/
@@ -42,9 +46,18 @@ header p{
 p#nome{
     max-width: 220px;
     font-size: 1.35em;
+    background-color: rgba(255, 255, 255, 0.445);
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+}
+p#sub{
+    color: rgb(32, 32, 32);
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
 }
 main{
-    background-color: lightblue;
+    background-color: transparent;
     height: 100vh;
     padding-right: 20px;
 }
@@ -65,16 +78,19 @@ main a{ /*Centralizando o link*/
     text-decoration: none;
     border-radius: 36px;
     color: white;
-    font-size: 1.51em;
+    font-size: 1.6em;
     font-family: var(--Fontedestaque);
     box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
     transition-duration: 0.5s;
 }
+a#insta{
+    background-color: rgba(255, 255, 255, 0.445);
+}
 a#git{
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.445);
 }
 a#linke{
-    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.445);
 }
 main a img{
     position: absolute;
