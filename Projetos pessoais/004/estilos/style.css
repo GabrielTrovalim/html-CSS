@@ -56,7 +56,7 @@ main a{ /*Centralizando o link*/
 
     display: block;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     
     padding: 20px 130px;
     max-width: 400px;
@@ -67,9 +67,14 @@ main a{ /*Centralizando o link*/
     color: white;
     font-size: 1.51em;
     font-family: var(--Fontedestaque);
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
 }
 a#git{
     background-color: blue;
+}
+a#linke{
+    background-color: gray;
 }
 main a img{
     position: absolute;
@@ -79,4 +84,8 @@ main a img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+main a:hover{
+   font-size: 2.3em;
 }
