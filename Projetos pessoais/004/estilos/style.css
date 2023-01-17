@@ -2,147 +2,71 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500;700&display=swap');
+
+:root{
+    --fontetitulo: font-family: 'Roboto Mono', monospace;
+    --Fontedestaque: font-family: 'Sofia Sans', sans-serif;
+}
+
 *{
     padding: 0px;
     margin: 0px;
-    text-decoration: none;
 }
-:root{
-    --fontepadrao: Arial, Helvetica, sans-serif;
-    --fontetitulo: 'Roboto Mono', monospace;
+header{ /*Cabeça do site*/
+    padding: 20px;
+    background-color: lightgray;
 }
-body{
-    font-family: var(--fontepadrao);
-}
-header{
-    background-color: transparent;
-    height: 440px;
-    padding-bottom: 30px;
-    text-align: center;
+header img{
+    position: relative; /*Centralizando a imagem*/
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%; /*Tornando a imagem redonda*/
 }
 header p{
-    font-family: var(--fontetitulo);
-    margin-top: 40px;
-    font-size: 2.3em;
-}
-p.pequeno{
-    font-size: 1.4em;
-    padding-top: 5px;
-    margin-top: -10px;
-    color: rgb(46, 44, 44);
-}
-section#foto{
-    padding-top: 30px;
-}
-section#foto img{
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-}
-main{
     position: relative;
-    width: 94,5vw;
-    height: 100vh;
-    background-color: skyblue;
-    padding: 35px 20px 10px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+
+    margin-top: 20px;
+    max-width: 150px;
     text-align: center;
 }
-section#caixa1{
+main{
+    background-color: lightblue;
+    height: 100vh;
+    padding-right: 20px;
+}
+main a{ /*Centralizando o link*/
     position: relative;
-    margin: auto;
-    
-    max-width: 600px;
-    height: 100px;
-}
-section#caixa1 img{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-}
-article#cont1{
-    background-color: rgba(0, 0, 0, 0.445);
-    border-radius: 20px;
-    color: white;
-    margin: -10px -0px 0px 110px;
-    max-width: 500px;
-    height: 100px;
-}
-article#cont1 p{
-    padding-top: 35px;
-    font-size: 2.0em;
-}
-section#caixa2{
-    position: relative;
-    margin: 25px auto;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-    background-color: transparent;
-    max-width: 600px;
-    height: 100px;
-}
-section#caixa2 img{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-}
-article#cont2{
-    background-color: rgba(0, 0, 0, 0.377);
-    margin: -10px -0px 0px 110px;
-    border-radius: 20px;
-    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 150px 20px 150px;
     max-width: 500px;
-    height: 100px;
-}
-article#cont2 p{
-    padding-top: 35px;
-    font-size: 2.0em;
-}
-section#caixa3{
-    position: relative;
-    margin: 25px auto;
-
-    background-color: transparent;
-    max-width: 600px;
-    height: 100px;
-}
-section#caixa3 img{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-}
-article#cont3{
-    background-color: rgba(0, 0, 0, 0.377);
-    margin: -10px -0px 0px 110px;
-    border-radius: 20px;
-    max-width: 500px;
-    color: white;
-    height: 100px;
-}
-article#cont3 p{
-    padding-top: 35px;
-    font-size: 2.0em;
-}
-section#monitor{
-    margin: auto;
-
-    background: transparent url('../imagens/monitor1.png') no-repeat top center scroll;
-    background-size: 100%;
-    height: 300px;
-    max-width: 400px;
-}
-iframe#tela{
-    position: relative;
-    top: 30px;
-    left: 0px;
-    width: 335px;
-    height: 200px;
     background-color: red;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 36px;
+    color: white;
+    font-size: 1.2em;
+}
+main a img{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
