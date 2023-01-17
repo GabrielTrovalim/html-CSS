@@ -91,6 +91,7 @@ a#git{
 }
 a#linke{
     background-color: rgba(255, 255, 255, 0.445);
+    margin-bottom: 60px;
 }
 main a img{
     position: absolute;
@@ -105,7 +106,30 @@ main a img{
 main a:hover{
    font-size: 2.3em;
 }
+section#frame{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+
+    display: block;
+    max-width: 600px;
+    height: 400px;
+    background: transparent url('../imagens/frame-site.png') no-repeat center center scroll;
+    background-size: contain;
+    margin-left: 10px;
+}
+iframe#tela{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 67.5%;
+    height: 61.8%;
+}
 footer{
+    margin-top: 90px;
     padding: 8px 5px;
     background-color: black;
     color: white;
