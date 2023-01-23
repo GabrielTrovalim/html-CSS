@@ -1,6 +1,6 @@
 @charset "UTF-8"; /*Aparelho deitado (landscape)*/
 
 body{ /*Mudança de imagem de acordo com a orientação do dispositivo*/
-    background: url('../imagens/cev-landscape.jpg') no-repeat left bottom fixed;
+    background: url('../imagens/cev-landscape.jpg') no-repeat left bottom scroll;
     background-size: contain;
 }

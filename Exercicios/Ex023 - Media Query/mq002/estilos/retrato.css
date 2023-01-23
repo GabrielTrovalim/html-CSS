@@ -1,6 +1,6 @@
 @charset "UTF-8"; /*Aparelho em pé (portrait)*/
 
 body{ /*Mudança de imagem de acordo com a orientação do dispositivo*/
-    background: url('../imagens/cev-portrait.jpg') no-repeat bottom center fixed;
+    background: url('../imagens/cev-portrait.jpg') no-repeat bottom center scroll;
     background-size: contain;
 }
