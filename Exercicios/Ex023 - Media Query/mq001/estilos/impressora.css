@@ -1,3 +1,29 @@
 @charset "UTF-8";
 
 /*Estilo para impressão*/
+
+*{
+    padding: 10px;
+    margin: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none; /*Na impressão não será possível ver o menu que existia no site.*/
+}
+header h1{
+    text-align: center;
+}
+article h2{
+    text-align: center;
+}
+article p{
+    text-align: justify;
+    text-indent: 30px;
+}
+article::after{
+    content: "Criado por Gabriel Trovalim para o www.noticias.com";
+}
