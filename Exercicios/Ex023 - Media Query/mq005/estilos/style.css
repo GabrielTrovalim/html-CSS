@@ -22,6 +22,9 @@ header h1{
     background-color: rgba(255, 255, 255, 0.445);
     border-radius: 10px;
 }
+span#burguer{
+    background-color: rgb(48, 48, 48);
+}
 menu{
     display: block;
     margin-top: 10px;
