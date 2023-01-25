@@ -12,7 +12,7 @@
     <header> <!--Cabeçalho-->
         <h1>Meu site</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span> <!--Objeto do menu-->
-        <menu> <!--Menu-->
+        <menu id="itens"> <!--Menu-->
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -37,7 +37,11 @@
     </main>
     <script> //Script para o nosso menu (1° script de todos)
         function clickMenu() {
-            
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
         }        
     </script>
 </body>
