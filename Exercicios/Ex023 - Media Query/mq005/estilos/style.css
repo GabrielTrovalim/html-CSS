@@ -42,22 +42,30 @@ span#burguer:hover{
 }
 menu{
     display: none;
+    max-width: 600px;
+    margin: auto;
     margin-top: 10px;
+    text-align: center;
 }
 menu ul{
     list-style-type: none;
 }
 menu > ul > li > a{
+    margin: 10px 0px;
+    border-radius: 5px;
     display: block;
     padding: 10px;
     text-decoration: none;
     background-color: rgb(87, 87, 87);
     color: white;
+    font-weight: bold;
     text-align: center;
     border-top: 2px solid grey;
+    transition-duration: 0.3s;
 }
 menu > ul > li > a:hover{
     background-color: grey;
+    padding: 15px;
 }
 main{
     width: 90vw;

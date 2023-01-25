@@ -7,8 +7,9 @@
     <title>Menu responsivo</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Ícone do google icons / menu compacto-->
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouT()">
     <header> <!--Cabeçalho-->
         <h1>Meu site</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span> <!--Objeto do menu-->
@@ -36,6 +37,10 @@
         </article>
     </main>
     <script> //Script para o nosso menu (1° script de todos)
+        function mudouT(){
+            
+        }
+        
         function clickMenu() {
             if (itens.style.display == 'block'){
                 itens.style.display = 'none'
