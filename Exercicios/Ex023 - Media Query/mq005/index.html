@@ -38,7 +38,11 @@
     </main>
     <script> //Script para o nosso menu (1° script de todos)
         function mudouT(){
-            
+            if (window.innerWidth >= 800){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            } // se a janela for maior ou igual a 800px os itens do menu tem display = block.
         }
         
         function clickMenu() {

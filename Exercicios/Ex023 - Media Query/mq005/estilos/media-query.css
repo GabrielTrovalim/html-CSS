@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) { /*Acima de 800px o span#burguer desaparece.*/
     span#burguer{
         display: none;
     }
-    menu{
+    menu{ /*Já o menu ficará visivel.*/
         display: block;
     }
-    menu > ul > li {
+    menu > ul > li { /*E por fim, os links do menu vão ficar um do lado do outro.*/
         display: inline-block;
+    }
+    main{
+        max-width: 900px;
     }
 }
