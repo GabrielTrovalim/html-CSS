@@ -46,7 +46,7 @@ p#usu{
 }
 span#user{
     position: absolute;
-    transform: translate(-60px, 0px);
+    transform: translate(-50px, 0px);
     
     font-size: 2.5em;
     color: white;
@@ -66,7 +66,7 @@ p#senha{
 }
 span#pass{
     position: absolute;
-    transform: translate(-60px, 0px);
+    transform: translate(-50px, 0px);
 
     font-size: 2.5em;
     color: white;
