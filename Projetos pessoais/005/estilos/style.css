@@ -1,57 +1,53 @@
 @charset "UTF-8";
 
-/*Paleta de cores*/
 :root{
-    --cor1: rgb(238, 136, 53);
-    --cor2: rgb(181, 98, 236);
-    --cor3: rgb(111, 167, 241);
+    --roxo: rgb(137, 52, 158);
+    --rosa: rgb(201, 42, 116);
 }
 *{
-    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 body, html{
-    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--rosa);
 }
 main{
     position: relative;
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
 }
-section#caixa{ /*Caixa principal para o login*/
+section#login{
     position: absolute;
+    top: 50%;
+    left: 50%;
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
     transition: width 0.3s, height 0.3s;
+    transform: translate(-50%, -50%);
 }
 div#img{
-    display: block;
-    background: red url('../imagens/paisagem.jpg') no-repeat center center;
+    background: var(--roxo) url('../imagens/paisagem.jpg') no-repeat center center;
     background-size: cover;
-    width: 100%;
     height: 200px;
-    box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.377);
+    display: block;
 }
 div#formulario{
     padding: 10px;
     display: block;
 }
 div#formulario h1{
-    font-size: 2.0em;
-    font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
 }
 div#formulario p{
     font-size: 0.9em;
-    line-height: 1.4em;
-    margin-bottom: 10px;
 }
