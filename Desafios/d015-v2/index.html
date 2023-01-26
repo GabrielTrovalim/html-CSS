@@ -7,6 +7,8 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Ícones do Google-->
+
 </head>
 <body>
     <main> <!--Código principal-->
@@ -14,12 +16,23 @@
             <div id="imagem">
                 <!--A imagem está aqui, como background-->
             </div>
-            
+
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
-                    
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo"> <!--Campo que recebe o email do usuário-->
+                        <span class="material-icons">person</span>
+                        <input type="email" name="login" id="ilogin" autocomplete="email" required maxlength="30" placeholder="Seu e-mail">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo"> <!--Campo que recebe a senha do usuário-->
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="20" placeholder="Sua senha">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">Esqueci a senha &#x2709;</a>
                 </form>
             </div>
         </section>
