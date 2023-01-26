@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Paleta de cores*/
+:root{
+    --cor1: rgb(238, 136, 53);
+    --cor2: rgb(181, 98, 236);
+    --cor3: rgb(111, 167, 241);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+section#caixa{ /*Caixa principal para o login*/
+    position: absolute;
+    background-color: white;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
