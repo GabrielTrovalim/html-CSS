@@ -37,6 +37,31 @@ main p#text{
     line-height: 1.4em;
     margin-bottom: 15px;
 }
+p#usu{
+    background-color: purple;
+    padding: 4px 4px 4px 15px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+#iusu{
+    padding: 12px;
+    font-size: 1.05em;
+    border-radius: 10px;
+    border: 0px;
+}
+p#senha{
+    background-color: purple;
+    padding: 4px 4px 4px 15px;
+    border-radius: 12px;
+    text-align: right;
+}
+#isenha{
+    padding: 12px;
+    font-size: 1.05em;
+    border-radius: 10px;
+    border: 0px;
+}
 #botent{
     background-color: #53aaa7;
     color: white;
@@ -55,7 +80,7 @@ main p#text{
 #botsenha{
     display: block;
     margin: auto;
-    margin-top: -7px;
+    margin-top: -10px;
     border: 1px solid #53aaa7;
     width: 320px;
     padding: 10px;
