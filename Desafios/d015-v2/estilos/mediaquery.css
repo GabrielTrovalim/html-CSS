@@ -2,6 +2,31 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
-        width: 90vW;
+        width: 80vW;
     }
+    div#imagem{
+        float: left;
+        width: 35%;
+        height: 100%;
+
+    }
+    div#formulario{
+        float: right;
+        width: 65%;
+    }
+}
+@media screen and (min-width: 992px) {
+    section#login{
+        width: 950px;
+    }
+    div#imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    div#formulario{
+        float: left;
+        width: 60%;
+    }
+    
 }
