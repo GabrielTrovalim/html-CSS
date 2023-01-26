@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Chamando os ícones do google-->
+
 </head>
 
 <body>
@@ -17,11 +19,11 @@
         </p>
         <form action="cadastro.php" method="post" autocomplete="on"> <!--Formulário-->
             <p id="usu"> <!--Fundo do campo de email-->
-                <label for="iusu"></label>
+                <label for="iusu"><span class="material-icons" id="user">person</span></label>
                 <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="26" placeholder="Seu e-mail" autocomplete="email">
             </p>
             <p id="senha"> <!--Fundo do campo de senha-->
-                <label for="isenha"></label>
+                <label for="isenha"><span class="material-icons" id="pass">key</span></label>
                 <input type="password" name="senha" id="isenha" required minlength="5" size="26" placeholder="Sua senha" autocomplete="current-password">
             </p>
             <p>
