@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
+:root{
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to right, var(--lilas), var(--verde));
+    }
     section#login{
         width: 80vW;
     }
@@ -16,6 +24,9 @@
     }
 }
 @media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to left, var(--lilas), var(--verde));
+    }
     section#login{
         width: 950px;
     }
