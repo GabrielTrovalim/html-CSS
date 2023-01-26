@@ -20,6 +20,7 @@ section#img{
 }
 main{ /*Caixa principal*/
     background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
     border-radius: 25px;
     max-width: 350px;
     margin: auto;
@@ -32,7 +33,37 @@ main h1{
     margin-bottom: 15px;
     font-size: 1.8em;
 }
-main p{
+main p#text{
     line-height: 1.4em;
     margin-bottom: 15px;
+}
+#botent{
+    background-color: #53aaa7;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 320px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 0px solid transparent; /*Tirando a borda padrão*/
+}
+#botent:hover{
+    background-color: #356b69;
+}
+#botsenha{
+    display: block;
+    margin: auto;
+    margin-top: -7px;
+    border: 1px solid #53aaa7;
+    width: 320px;
+    padding: 10px;
+    border-radius: 8px;
+    color: rgb(120, 120, 120);
+    font-size: 1.2em;
+}
+#botsenha:hover{
+    background-color: #3ac9c4;
+    color: #53aaa7;
 }

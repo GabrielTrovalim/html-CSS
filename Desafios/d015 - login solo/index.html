@@ -12,7 +12,7 @@
     <main> <!--Caixa principal da página-->
         <section id="img"></section>
         <h1>Login</h1>
-        <p>
+        <p id="text">
             Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
         </p>
         <form action="cadastro.php" method="post" autocomplete="on"> <!--Formulário-->
@@ -22,11 +22,11 @@
             </p>
             <p>
                 <label for="isenha"></label>
-                <input type="password" name="senha" id="isenha">
+                <input type="password" name="senha" id="isenha" required minlength="5" size="25" placeholder="Sua senha" autocomplete="current-password">
             </p>
             <p>
-                <input type="submit" value="Entrar"> <br>
-                <input type="reset" value="Esqueci a senha">
+                <input type="submit" value="Entrar" id="botent"> <br>
+                <input type="reset" value="Esqueci a senha" id="botsenha">
             </p>
         </form>
     </main>
