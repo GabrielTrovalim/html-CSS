@@ -24,6 +24,10 @@
         float: right;
         width: 65%;
     }
+    div#formulario p{
+        font-size: 1em;
+        margin: 15px 0px;
+    }
 }
 @media screen and (min-width: 992px) {
     /*Configurações para grandes telas*/
@@ -47,6 +51,7 @@
         font-size: 2em;
     }
     div#formulario p{
+        margin: 15px 0px;
         font-size: 1.2em;
     }
 }
