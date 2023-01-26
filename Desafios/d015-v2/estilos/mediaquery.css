@@ -6,11 +6,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /*Config de tablet*/
     body{
         background-image: linear-gradient(to left, var(--lilas), var(--verde));
     }
     section#login{
         width: 80vW;
+        height: 300px;
     }
     div#imagem{
         float: left;
@@ -24,11 +26,13 @@
     }
 }
 @media screen and (min-width: 992px) {
+    /*Configurações para grandes telas*/
     body{
         background-image: linear-gradient(to left, var(--lilas), var(--verde));
     }
     section#login{
         width: 950px;
+        height: 350px;
     }
     div#imagem{
         float: right;
