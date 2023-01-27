@@ -27,3 +27,28 @@
         margin: 15px 0px;
     }
 }
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, var(--rosa), var(--roxo));
+    }
+    section#login{
+        width: 992px;
+        height: 500px;
+    }
+    div#img{
+        float: right;
+        width: 45%;
+        height: 100%;
+    }
+    div#formulario{
+        float: left;
+        width: 55%;
+    }
+    div#formulario h1{
+        font-size: 2.5em;
+    }
+    div#formulario p{
+        font-size: 1.2em;
+        margin-left: 10px;
+    }
+}

@@ -19,7 +19,16 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login aqui para poder acessar sua conta e continuar.</p>
                 <form action="login.php" method="post">
-
+                    <div class="campo"> <!--Parte da caixa e-mail-->
+                        <label for="iusu"></label>
+                        <input type="email" name="usu" id="iusu" required minlength="5" maxlength="30" autocomplete="email" placeholder="Seu e-mail">
+                    </div>
+                    <div class="campo"> <!--Recebe a senha-->
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="30" placeholder="Sua senha">
+                    </div>
+                    <input type="submit" value="Entrar" id="entrar">
+                    <a href="lembrar.html" target="_self" rel="next" class="botao">Esqueci a senha &#x2709;</a>
                 </form>
             </div>
         </section>
