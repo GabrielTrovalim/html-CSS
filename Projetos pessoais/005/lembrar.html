@@ -20,11 +20,15 @@
                 <p>Informe o seu e-mail para recuperar sua senha.</p>
 
                 <form action="recupera.php" method="post"> <!--Formulário-->
-
-                    <input type="submit" value="Enviar">
+                    <div class="campo">
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" required minlength="5" maxlength="30" autocomplete="email" placeholder="E-mail para recuperação">
+                    </div>
+                    
+                    <input type="submit" value="Enviar" id="enviar">
+                    <a href="#" target="_self" rel="next" class="botao">Redefinir senha</a> <!--Link para página de redefinir-->
                 </form>
 
-                <a href="#">Redefinir senha</a> <!--Link para página de redefinir-->
             </div>
         </section>
     </main>

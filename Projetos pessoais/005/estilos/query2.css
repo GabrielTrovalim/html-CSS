@@ -8,7 +8,8 @@
         float: right;
         width: 40%;
         height: 100%;
-        background: skyblue url('../imagens/paisagem2.jpg') no-repeat;
+        background: skyblue url('../imagens/paisagem2.jpg') no-repeat center center;
+        background-size: cover;
     }
     div#formulario{
         float: left;
@@ -19,5 +20,38 @@
         background: transparent none;
         color: black;
         margin: 0px 0px 15px 0px;
+        box-shadow: none;
+    }
+    div#formulario p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#lembrar{
+        width: 992px;
+    }
+    div#img{
+        float: left;
+        background: red url('../imagens/paisagem2.jpg')no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        width: 40%;
+    }
+    div#formulario{
+        float: right;
+        height: 100%;
+        width: 60%;
+
+    }
+    div#formulario h1{
+        background: transparent none;
+        color: black;
+        margin: 0px 0px 15px 0px;
+        box-shadow: none;
+    }
+    div#formulario p{
+        font-size: 1.4em;
+        text-align: center;
     }
 }

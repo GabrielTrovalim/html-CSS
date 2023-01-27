@@ -34,6 +34,7 @@ section#lembrar{
     overflow: hidden;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.288);
     transform: translate(-50%, -50%);
+    transition: height 0.3s, width 0.3s;
 }
 div#formulario{
     padding: 10px;
@@ -45,9 +46,36 @@ div#formulario h1{
     margin: -10px -10px 15px -10px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.5);
     background:blue url('../imagens/paisagem2.jpg') no-repeat center center;
 }
 div#formulario p{
     font-size: 1em;
     margin-bottom: 10px;
+}
+div.campo{
+    background-image: linear-gradient(to right, skyblue, pink);
+    padding: 2px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    width: 100%;
+}
+input#iemail{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+input#enviar{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    background-color: rgb(196, 121, 134);
+}
+input#enviar:hover{
+    cursor: pointer;
+    background-color: pink;
 }
