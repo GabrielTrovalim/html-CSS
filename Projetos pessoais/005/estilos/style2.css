@@ -27,8 +27,8 @@ section#lembrar{
     top: 50%;
     left: 50%;
 
-    width: 280px;
-    height: 400px;
+    width: 290px;
+    height: 350px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -60,10 +60,16 @@ div.campo{
     border-radius: 8px;
     width: 100%;
 }
+div.campo span{
+    font-size: 1.6em;
+    transform: translate(0px, 3px);
+}
 input#iemail{
     border: none;
     padding: 5px;
     border-radius: 5px;
+    width: calc(100% - 33px);
+    transform: translate(0px, -4px);
 }
 input#enviar{
     display: block;
@@ -73,9 +79,26 @@ input#enviar{
     border-radius: 8px;
     margin-bottom: 10px;
     font-size: 1.1em;
-    background-color: rgb(196, 121, 134);
+    background-color: rgb(228, 90, 143);
 }
 input#enviar:hover{
     cursor: pointer;
     background-color: pink;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.288);
+    transform: translate(0px, -3px);
+}
+a.botao{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(228, 90, 143);
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+a.botao:hover{
+
 }

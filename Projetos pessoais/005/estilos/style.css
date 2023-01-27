@@ -70,14 +70,14 @@ input#iusu{
     border: none;
     padding: 5px;
     border-radius: 5px;
-    transform: translate(0px, -5px);
+    transform: translate(0px, -4px);
 }
 input#isenha{
     padding: 5px;
     border-radius: 5px;
     width: calc(100% - 33px);
     border: none;
-    transform: translate(0px, -5px);
+    transform: translate(0px, -4px);
 }
 input#entrar{
     display: block;
