@@ -10,8 +10,9 @@
         background-image: linear-gradient(to top, var(--rosa), var(--roxo));
     }    
     section#login{
+        margin-top: 10px;
         width: 80vw;
-        height: 312px;   
+        height: 315px;   
     }
     div#img{
         float: left;
