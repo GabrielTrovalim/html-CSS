@@ -100,5 +100,6 @@ a.botao{
     color: black;
 }
 a.botao:hover{
-
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.288);
+    transform: translate(0px, -3px);
 }
