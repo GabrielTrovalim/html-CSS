@@ -1,2 +1,53 @@
 @charset "UTF-8";
 
+:root{
+    --verde: rgb(0, 172, 72);
+    --averde: rgb(0, 150, 150);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, var(--averde), var(--verde));
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#lembrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.288);
+    transform: translate(-50%, -50%);
+}
+div#formulario{
+    padding: 10px;
+}
+div#formulario h1{
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 1.8em;
+    margin: -10px -10px 15px -10px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
+    background:blue url('../imagens/paisagem2.jpg') no-repeat center center;
+}
+div#formulario p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}

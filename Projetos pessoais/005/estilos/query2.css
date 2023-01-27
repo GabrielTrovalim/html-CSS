@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#lembrar{
+        width: 80vw;
+    }
+    div#img{
+        float: right;
+        width: 40%;
+        height: 100%;
+        background: skyblue url('../imagens/paisagem2.jpg') no-repeat;
+    }
+    div#formulario{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+    div#formulario h1{
+        background: transparent none;
+        color: black;
+        margin: 0px 0px 15px 0px;
+    }
+}
