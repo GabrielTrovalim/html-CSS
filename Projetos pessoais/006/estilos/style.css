@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    background-color: peachpuff;
+}
+main section{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+}
